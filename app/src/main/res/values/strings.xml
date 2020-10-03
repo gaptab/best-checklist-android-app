@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ChecklistActivity!</string>
+    <string name="app_name">Best Checklist</string>
+    <string name="list_empty">No items</string>
+    <string name="menu_new_item">New Item</string>
+    <string name="menu_delcheckitems">Delete checked items</string>
+    <string name="menu_checkallstring">Check all</string>
+    <string name="menu_uncheckallstring">Uncheck all</string>
+    <string name="menu_reverseallstring">Reverse all</string>
+    <string name="contextmenu_deletestring">Delete</string>
+    <string name="contextmenu_editstring">Edit</string>
+    <color name="donecolor">#3399CC</color>
+    <string name="ok">OK</string>
+    <string name="edit_item_desc">Edit item description</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_new_item_text_here">Enter new item text here</string>
+    <string name="license_info">Open source license info</string>
+    <string name="about">About</string>
+    <string name="about_dlg_msg">This app is open source and available under the terms of GPLv3 license. License can be viewed at https://www.gnu.org/licenses/gpl-3.0.en.html Source code can be found at https://github.com/gaptab/best-checklist-android-app</string>
+</resources>

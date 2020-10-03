@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	>
+	<data>
+		<variable
+			name="item"
+			type="org.sanpra.checklist.dbhelper.ChecklistItem" />
+	</data>
+<TextView
+	android:id="@+id/itemtext"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:textSize="@dimen/checklist_item_textsize"
+	android:textColor="@{item.checked ? @color/grey : @color/white}"
+	android:background="@android:color/background_dark"
+	android:padding="5dp"
+	android:text="@{item.description}"
+	android:longClickable="true"
+	tools:text="Checklist item" />
+</layout>
